@@ -10,6 +10,7 @@ using Lesson2;
 using Lesson3;
 using Lesson4;
 using Lesson5;
+using Lesson8;
 using Serilog;
 
 namespace AlgorithmCourse_part2
@@ -29,7 +30,8 @@ namespace AlgorithmCourse_part2
                 new Less2(),
                 new Less3(),
                 new Less4(),
-                new Less5()
+                new Less5(),
+                new Less8()
             };
 
             foreach (ILess lesson in tasks)
