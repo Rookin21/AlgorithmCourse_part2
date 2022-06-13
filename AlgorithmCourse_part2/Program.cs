@@ -10,6 +10,7 @@ using Lesson2;
 using Lesson3;
 using Lesson4;
 using Lesson5;
+using Lesson7;
 using Lesson8;
 using Serilog;
 
@@ -31,6 +32,7 @@ namespace AlgorithmCourse_part2
                 new Less3(),
                 new Less4(),
                 new Less5(),
+                new Less7(),
                 new Less8()
             };
 
